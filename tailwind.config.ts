@@ -32,7 +32,7 @@ export default {
   				DEFAULT: 'hsl(var(--muted))',
   				foreground: 'hsl(var(--muted-foreground))'
   			},
-  			accent: {
+  			accent: { // Ensure accent is defined for AnimatedButton custom variant
   				DEFAULT: 'hsl(var(--accent))',
   				foreground: 'hsl(var(--accent-foreground))'
   			},
@@ -82,13 +82,23 @@ export default {
   				to: {
   					height: '0'
   				}
-  			}
+  			},
+        'pulse-slow': {
+          '0%, 100%': { opacity: '0.7' , transform: 'scale(0.95)'},
+          '50%': { opacity: '1', transform: 'scale(1.05)' },
+        },
+        'fadeIn': {
+          '0%': { opacity: '0', transform: 'translateY(10px)' },
+          '100%': { opacity: '1', transform: 'translateY(0)' },
+        }
   		},
   		animation: {
   			'accordion-down': 'accordion-down 0.2s ease-out',
-  			'accordion-up': 'accordion-up 0.2s ease-out'
+  			'accordion-up': 'accordion-up 0.2s ease-out',
+        'pulse-slow': 'pulse-slow 5s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+        'fadeIn': 'fadeIn 0.5s ease-out forwards',
   		}
   	}
   },
-  plugins: [require("tailwindcss-animate")],
+  plugins: [require("tailwindcss-animate"), require('tailwind-scrollbar')({ nocompatible: true })],
 } satisfies Config;
