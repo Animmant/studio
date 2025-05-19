@@ -1,3 +1,4 @@
+
 'use client';
 
 import Image from 'next/image';
@@ -15,7 +16,7 @@ const accessoriesData: Accessory[] = [
     price: 69.99,
     imageUrl: 'https://placehold.co/400x300/121E33/FFFFFF',
     category: 'Controller',
-    dataAiHint: 'dualsense controller'
+    dataAiHint: 'game controller'
   },
   {
     id: 'pulse-3d-headset',
@@ -24,7 +25,7 @@ const accessoriesData: Accessory[] = [
     price: 99.99,
     imageUrl: 'https://placehold.co/400x300/FFFFFF/121E33',
     category: 'Audio',
-    dataAiHint: 'gaming headset'
+    dataAiHint: 'audio headset'
   },
   {
     id: 'media-remote',
@@ -33,7 +34,7 @@ const accessoriesData: Accessory[] = [
     price: 29.99,
     imageUrl: 'https://placehold.co/400x300/2979FF/FFFFFF',
     category: 'Remote',
-    dataAiHint: 'ps5 media remote'
+    dataAiHint: 'media remote'
   },
   {
     id: 'hd-camera',
@@ -42,7 +43,7 @@ const accessoriesData: Accessory[] = [
     price: 59.99,
     imageUrl: 'https://placehold.co/400x300/C77DFF/121E33',
     category: 'Camera',
-    dataAiHint: 'ps5 hd camera'
+    dataAiHint: 'streaming camera'
   },
 ];
 

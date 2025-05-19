@@ -1,3 +1,4 @@
+
 'use client';
 
 import Image from 'next/image';
@@ -15,7 +16,8 @@ const HeroSection = () => {
       id: 'ps5-standard', name: 'PlayStation 5 Console', 
       description: 'Experience lightning-fast loading with an ultra-high speed SSD.', 
       price: 499.99, 
-      imageUrl: 'https://placehold.co/800x600/121E33/C77DFF' // Placeholder image URL
+      imageUrl: 'https://placehold.co/800x600/121E33/C77DFF', // Placeholder image URL
+      dataAiHint: 'playstation console' 
     });
   };
 
@@ -52,7 +54,7 @@ const HeroSection = () => {
               height={450}
               priority
               className="rounded-lg shadow-2xl relative z-10 transform hover:scale-105 transition-transform duration-500"
-              data-ai-hint="ps5 console controller"
+              data-ai-hint="gaming setup"
             />
           </div>
         </div>

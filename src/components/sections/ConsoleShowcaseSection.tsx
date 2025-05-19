@@ -1,3 +1,4 @@
+
 'use client';
 
 import Image from 'next/image';
@@ -17,7 +18,7 @@ const consolesData: Console[] = [
     price: 499.99,
     imageUrl: 'https://placehold.co/500x400/121E33/C77DFF',
     storage: '825GB Custom SSD',
-    dataAiHint: 'ps5 standard console',
+    dataAiHint: 'playstation console',
   },
   {
     id: 'ps5-digital',
@@ -27,7 +28,7 @@ const consolesData: Console[] = [
     price: 399.99,
     imageUrl: 'https://placehold.co/500x400/C77DFF/121E33',
     storage: '825GB Custom SSD',
-    dataAiHint: 'ps5 digital console',
+    dataAiHint: 'digital console',
   },
 ];
 

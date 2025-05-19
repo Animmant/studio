@@ -1,3 +1,4 @@
+
 'use client';
 
 import Image from 'next/image';
@@ -19,7 +20,7 @@ const gamesData: Game[] = [
     genre: 'Action-Adventure',
     platform: 'PS5',
     releaseDate: '2023-10-20',
-    dataAiHint: 'spiderman game cover'
+    dataAiHint: 'spiderman game'
   },
   {
     id: 'horizon-forbidden-west',
@@ -30,7 +31,7 @@ const gamesData: Game[] = [
     genre: 'Action RPG',
     platform: 'PS5',
     releaseDate: '2022-02-18',
-    dataAiHint: 'horizon game cover'
+    dataAiHint: 'horizon game'
   },
   {
     id: 'god-of-war-ragnarok',
@@ -41,7 +42,7 @@ const gamesData: Game[] = [
     genre: 'Action-Adventure',
     platform: 'PS5',
     releaseDate: '2022-11-09',
-    dataAiHint: 'god of war game cover'
+    dataAiHint: 'ragnarok game'
   },
   {
     id: 'returnal',
@@ -52,7 +53,7 @@ const gamesData: Game[] = [
     genre: 'Roguelike Shooter',
     platform: 'PS5',
     releaseDate: '2021-04-30',
-    dataAiHint: 'returnal game cover'
+    dataAiHint: 'sci-fi game'
   },
 ];
 
