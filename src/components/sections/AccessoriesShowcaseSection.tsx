@@ -14,9 +14,9 @@ const accessoriesData: Accessory[] = [
     name: 'DualSense™ Wireless Controller',
     description: 'Immersive haptic feedback, dynamic adaptive triggers and a built-in microphone, all integrated into an iconic comfortable design.',
     price: 69.99,
-    imageUrl: 'https://placehold.co/400x300/121E33/FFFFFF',
+    imageUrl: 'https://placehold.co/400x300/121E33/FFFFFF', // Updated image
     category: 'Controller',
-    dataAiHint: 'game controller'
+    dataAiHint: 'dark controller' // Updated hint
   },
   {
     id: 'pulse-3d-headset',
