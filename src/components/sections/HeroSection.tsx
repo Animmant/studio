@@ -13,7 +13,7 @@ const HeroSection = () => {
       id: 'ps5-standard', name: 'PlayStation 5 Console',
       description: 'Experience lightning-fast loading with an ultra-high speed SSD.',
       price: 499.99,
-      imageUrl: 'https://placehold.co/800x600/121E33/C77DFF',
+      imageUrl: 'https://placehold.co/800x600/101827/E0E0E0', // Placeholder for selected item
       dataAiHint: 'playstation console'
     });
   };
@@ -22,12 +22,12 @@ const HeroSection = () => {
     <section className="relative py-20 md:py-32 bg-gradient-to-br from-background to-secondary overflow-hidden">
       <div className="absolute inset-0">
         <Image
-          src="https://placehold.co/1920x1080/000000/333333" 
+          src="https://placehold.co/1920x1080/0A121C/141D2B" 
           alt="Abstract technology background"
           layout="fill"
           objectFit="cover"
-          className="opacity-10" 
-          data-ai-hint="tech pattern"
+          className="opacity-20" 
+          data-ai-hint="abstract background"
         />
       </div>
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
@@ -52,13 +52,13 @@ const HeroSection = () => {
           <div className="relative flex justify-center items-center">
             <div className="absolute w-full h-full bg-primary/20 rounded-full blur-3xl animate-pulse-slow"></div>
             <Image
-              src="https://placehold.co/600x450/C77DFF/121E33" 
-              alt="PS5 DualSense Controller"
+              src="https://placehold.co/600x450/1E90FF/0A0F1A" 
+              alt="PS5 DualSense Controller in action"
               width={600}
               height={450}
               priority
               className="rounded-lg shadow-2xl relative z-10 transform hover:scale-105 transition-transform duration-500"
-              data-ai-hint="ps5 controller" 
+              data-ai-hint="dynamic gaming" 
             />
           </div>
         </div>

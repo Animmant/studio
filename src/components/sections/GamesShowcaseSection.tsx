@@ -16,7 +16,7 @@ const gamesData: Game[] = [
     name: "Marvel's Spider-Man 2",
     description: "Swing through Marvel's New York with Peter Parker and Miles Morales.",
     price: 69.99,
-    imageUrl: 'https://placehold.co/300x400/1A2A40/FAFAFA', // Updated image
+    imageUrl: 'https://placehold.co/300x400/1A2A40/FAFAFA',
     genre: 'Action-Adventure',
     platform: 'PS5',
     releaseDate: '2023-10-20',
@@ -27,11 +27,11 @@ const gamesData: Game[] = [
     name: 'Horizon Forbidden West',
     description: 'Explore distant lands, fight bigger and more awe-inspiring machines.',
     price: 59.99,
-    imageUrl: 'https://placehold.co/300x400/C77DFF/121E33',
+    imageUrl: 'https://placehold.co/300x400/00BFFF/0A0F1A', // Deep sky blue game art on dark background
     genre: 'Action RPG',
     platform: 'PS5',
     releaseDate: '2022-02-18',
-    dataAiHint: 'horizon game'
+    dataAiHint: 'adventure game' // Updated hint
   },
   {
     id: 'god-of-war-ragnarok',
@@ -64,15 +64,6 @@ const GamesShowcaseSection = () => {
     <section id="games" className="py-16 md:py-24 bg-background">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <SectionTitle title="Featured PS5 Games" subtitle="Discover the latest and greatest titles for your PlayStation 5." />
-        {/*
-          PlayStation API Integration Point:
-          The 'gamesData' array is currently mock data. In a real application,
-          this data would be fetched dynamically from the PlayStation API.
-          Example:
-          useEffect(() => {
-            fetchPlayStationGames().then(data => setGames(data));
-          }, []);
-        */}
         <div className="flex overflow-x-auto space-x-6 pb-8 scrollbar-thin scrollbar-thumb-primary scrollbar-track-secondary">
           {gamesData.map((game) => (
             <Card key={game.id} className="min-w-[300px] max-w-[300px] flex flex-col overflow-hidden shadow-lg hover:shadow-primary/30 transition-shadow duration-300">
@@ -93,7 +84,7 @@ const GamesShowcaseSection = () => {
                 </CardDescription>
                 <div className="flex items-center mt-2">
                   {[...Array(5)].map((_, i) => (
-                    <Star key={i} className={`w-4 h-4 ${i < 4 ? 'text-yellow-400 fill-yellow-400' : 'text-muted-foreground'}`} />
+                    <Star key={i} className={`w-4 h-4 ${i < 4 ? 'text-accent fill-accent' : 'text-muted-foreground'}`} />
                   ))}
                   <span className="ml-2 text-xs text-muted-foreground">(100+ Reviews)</span>
                 </div>

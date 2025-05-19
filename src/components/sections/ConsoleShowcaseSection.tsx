@@ -16,9 +16,9 @@ const consolesData: Console[] = [
     type: 'Standard',
     description: 'Experience lightning-fast loading with an ultra-high speed SSD, deeper immersion with support for haptic feedback, adaptive triggers, and 3D Audio.',
     price: 499.99,
-    imageUrl: '/images/ps5_console_with_controller.png', // Updated image path
+    imageUrl: '/images/ps5_console_with_controller.png',
     storage: '825GB Custom SSD',
-    dataAiHint: 'playstation console controller', // Updated AI hint
+    dataAiHint: 'playstation console controller',
   },
   {
     id: 'ps5-digital',
@@ -26,9 +26,9 @@ const consolesData: Console[] = [
     type: 'Digital Edition',
     description: 'An all-digital version of the PS5 console with no disc drive. Sign into your PlayStation Network account and go to PlayStation®Store to buy and download games.',
     price: 399.99,
-    imageUrl: 'https://placehold.co/500x400/C77DFF/121E33',
+    imageUrl: 'https://placehold.co/500x400/E0E0E0/101827', // Light gray console on dark blue
     storage: '825GB Custom SSD',
-    dataAiHint: 'digital console',
+    dataAiHint: 'digital console white', // Updated hint
   },
 ];
 

@@ -14,9 +14,9 @@ const accessoriesData: Accessory[] = [
     name: 'DualSense™ Wireless Controller',
     description: 'Immersive haptic feedback, dynamic adaptive triggers and a built-in microphone, all integrated into an iconic comfortable design.',
     price: 69.99,
-    imageUrl: 'https://placehold.co/400x300/121E33/FFFFFF', // Updated image
+    imageUrl: 'https://placehold.co/400x300/121E33/FFFFFF',
     category: 'Controller',
-    dataAiHint: 'dark controller' // Updated hint
+    dataAiHint: 'dark controller'
   },
   {
     id: 'pulse-3d-headset',
@@ -41,9 +41,9 @@ const accessoriesData: Accessory[] = [
     name: 'HD Camera',
     description: 'Add yourself to your gameplay videos and broadcasts with smooth, sharp, full-HD capture.',
     price: 59.99,
-    imageUrl: 'https://placehold.co/400x300/C77DFF/121E33',
+    imageUrl: 'https://placehold.co/400x300/B0C4DE/101827', // Light steel blue camera on dark blue
     category: 'Camera',
-    dataAiHint: 'streaming camera'
+    dataAiHint: 'streaming camera' // Updated hint
   },
 ];
 
