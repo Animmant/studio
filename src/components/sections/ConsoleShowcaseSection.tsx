@@ -16,9 +16,9 @@ const consolesData: Console[] = [
     type: 'Standard',
     description: 'Experience lightning-fast loading with an ultra-high speed SSD, deeper immersion with support for haptic feedback, adaptive triggers, and 3D Audio.',
     price: 499.99,
-    imageUrl: 'https://placehold.co/500x400/121E33/C77DFF',
+    imageUrl: '/images/ps5_console_with_controller.png', // Updated image path
     storage: '825GB Custom SSD',
-    dataAiHint: 'playstation console',
+    dataAiHint: 'playstation console controller', // Updated AI hint
   },
   {
     id: 'ps5-digital',
@@ -56,7 +56,7 @@ const ConsoleShowcaseSection = () => {
                     src={consoleItem.imageUrl}
                     alt={consoleItem.name}
                     layout="fill"
-                    objectFit="cover"
+                    objectFit={consoleItem.id === 'ps5-standard' && consoleItem.imageUrl === '/images/ps5_console_with_controller.png' ? "contain" : "cover"}
                     className="transition-transform duration-500 hover:scale-105"
                     data-ai-hint={consoleItem.dataAiHint}
                   />
