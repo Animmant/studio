@@ -16,7 +16,7 @@ const gamesData: Game[] = [
     name: "Marvel's Spider-Man 2",
     description: "Swing through Marvel's New York with Peter Parker and Miles Morales.",
     price: 69.99,
-    imageUrl: 'https://placehold.co/300x400/2979FF/FFFFFF',
+    imageUrl: 'https://placehold.co/300x400/1A2A40/FAFAFA', // Updated image
     genre: 'Action-Adventure',
     platform: 'PS5',
     releaseDate: '2023-10-20',
